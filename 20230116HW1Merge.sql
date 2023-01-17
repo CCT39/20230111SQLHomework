@@ -1,6 +1,6 @@
 -- Merge範例
 
--- 建立庫存量的表格，以部分商品為例取其銷售數量（Quantity），演示Merge的使用方式
+-- 建立庫存量的表格，以部分商品為例，將其銷售數量（Quantity）根據ProductID加總後，從庫存量當中扣除，以此演示Merge的使用方式
 
 create table Inventories(
 	ProductID int,
